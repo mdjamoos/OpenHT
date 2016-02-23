@@ -1,5 +1,5 @@
-// -cl $(HtToolsPath)/tests/dsn1/src_pers/dsn1.htl
--wd $(HtToolsPath)/tests/dsn1/msvs12/
+// -cl $(HtToolsPath_v1x)/tests/dsn1/src_pers/dsn1.htl
+-wd $(HtToolsPath_v1x)/tests/dsn1/msvs12/
 
 -cp wx-690
 -mt
@@ -16,5 +16,5 @@
 -I ../src_pers
 -D_HTL
 -ml 0.6
-../src_pers/Dsn1.htd
+"../src_pers/Dsn1.htd"
 ../ht/sysc
